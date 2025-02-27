@@ -1,0 +1,12 @@
+EN LA REMOTA
+
+sudo visudo
+
+ansible ALL=(ALL) NOPASSWD: ALL
+
+
+
+---------------------------------
+
+
+ansible Ubuntu -m apt -a "name=htop state=present" -b

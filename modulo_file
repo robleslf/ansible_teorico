@@ -1,0 +1,1 @@
+ansible ubuntusrv -m file  -a "path=/home/ubuntusrv/prueba.txt owner=root mode=600" -b

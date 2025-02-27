@@ -1,0 +1,1 @@
+ansible Ubuntu -m user -a "name=benzema password=abc123. shell=/bin/bash state=absent" -b

@@ -8,5 +8,11 @@ ansible ALL=(ALL) NOPASSWD: ALL
 
 ---------------------------------
 
+ansible Ubuntu -m apt -a "update_cache=yes" -b
+
 
 ansible Ubuntu -m apt -a "name=htop state=present" -b
+
+
+ansible Ubuntu -m apt -a "name=htop state=absent autoremove=yes" -b
+

@@ -1,0 +1,1 @@
+ansible Ubuntu -m copy  -a "src=/home/ubuntu/saludos_banana.txtr dest=/home/ubuntusrv" -b
